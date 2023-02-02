@@ -3,7 +3,7 @@ import { type NextPage } from 'next';
 import Head from 'next/head';
 import { api } from '../utils/api';
 import Image from 'next/image';
-import { ChangeEvent, useEffect, useState } from 'react';
+import { ChangeEvent, useState } from 'react';
 
 const Home: NextPage = () => {
   const [input, setInput] = useState('');
